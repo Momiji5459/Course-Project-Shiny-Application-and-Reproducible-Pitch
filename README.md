@@ -9,9 +9,6 @@ date: "December 14th, 2021"
 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 
 ## Developing Data Products Project
@@ -82,10 +79,10 @@ The repository consists of three final files:
 The ui.R and server.R are the code for the shiny application: 
 
 
-*Git repository at: *
+*Git repository at:*
 
 *RPubs at:*
 
 *Shiny at:*
 
-*Presentation at: *
+*Presentation at:*
