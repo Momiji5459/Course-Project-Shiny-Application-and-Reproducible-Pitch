@@ -10,6 +10,38 @@ date: "December 14th, 2021"
 ---
 
 
+### Application - Covid-19 deaths per Country
+The repository consists of all files:
+
+**1. ui.R**
+
+**2. server.R**
+
+**3. README.md**
+
+**4. Data file: CVD.csv**
+
+**5. rmd_ShinyApplication.Rmd**
+
+**6. Presentation.Rmd**
+
+**7. Presentation.html**
+
+**8. rsconnect files**
+
+The ui.R and server.R are the code for the shiny application: 
+
+
+*Git repository at:https://github.com/Momiji5459/Course-Project-Shiny-Application-and-Reproducible-Pitch*
+
+*RPubs at:https://rpubs.com/Looloozz/Thanida_Course_Project_info_in_ShinyApplication*
+
+*Shiny at:https://tyj7ss-thanida-p.shinyapps.io/ShinyApplication/*
+
+*Presentation at:https://rpubs.com/Looloozz/week4_Course_Project_Presentaton*
+
+
+
 
 ## Developing Data Products Project
 
@@ -62,33 +94,3 @@ Get 5 slides (inclusive of the title slide) to pitch a your app. You’re going 
 
 4. It must contained some embedded R code that gets run when slidifying the document
 
-
-### Application - Covid-19 deaths per Country
-The repository consists of three final files:
-
-**1. ui.R**
-
-**2. server.R**
-
-**3. README.md**
-
-**4. Data file: CVD.csv**
-
-**5. rmd_ShinyApplication.Rmd**
-
-**6. Presentation.Rmd**
-
-**7. Presentation.html**
-
-**8. rsconnect**
-
-The ui.R and server.R are the code for the shiny application: 
-
-
-*Git repository at:https://github.com/Momiji5459/Course-Project-Shiny-Application-and-Reproducible-Pitch*
-
-*RPubs at:https://rpubs.com/Looloozz/Thanida_Course_Project_info_in_ShinyApplication*
-
-*Shiny at:https://tyj7ss-thanida-p.shinyapps.io/ShinyApplication/*
-
-*Presentation at:https://rpubs.com/Looloozz/week4_Course_Project_Presentaton*
