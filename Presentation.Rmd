@@ -1,0 +1,85 @@
+---
+title: "Covid-19 deaths per country in last 5 days"
+author: "Thanida Prasert"
+date: "December 14, 2021"
+subtitle: Course_Project_Presentaton
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Instruction (1)
+
+This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+Your Shiny Application
+
+1. Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+2. Deploy the application on Rstudio's shiny server
+3. Share the application link by pasting it into the provided text box
+4. Share your server.R and ui.R code on github
+
+The application must include the following:
+
+1. Some form of input (widget: textbox, radio button, checkbox, ...)
+2. Some operation on the ui input in sever.R
+3. Some reactive output displayed as a result of server calculations
+4. You must also include enough documentation so that a novice user could use your application.
+5. The documentation should be at the Shiny website itself. Do not post to an external link.
+
+
+## Read file 
+```{r echo=TRUE}
+cvd <- read.csv2("CVD.csv")
+cvd
+```
+
+
+## ui.R 
+
+```
+library(shiny)
+cvd <- read.csv2("CVD.csv")
+# Use a fluid Bootstrap layout 
+fluidPage(     
+  titlePanel("Covid deaths per country"), 
+  # Generate a row with a sidebar 
+  sidebarLayout(       
+    sidebarPanel(p(strong("Documentation:",style="color:Blue"), 
+    a("User Info Page",href="https://github.com/Momiji5459/Course-Project-Shiny-Application-and-Reproducible-Pitch")),
+    selectInput("Country", "Country:",choices=colnames(cvd[-1])), hr(), 
+    helpText("Covid deaths") ), 
+  
+    mainPanel( 
+      plotOutput("deaths")   
+    ) 
+  ) 
+) 
+```
+
+
+## server.R 
+```
+cvd <- read.csv2("CVD.csv")
+#install.packages("shiny")
+function(input, output) { 
+  
+  # Fill in the spot we created for a plot 
+  output$deaths <- renderPlot({ 
+    
+    # Render a barplot 
+    barplot(cvd[,input$Country],  
+            main=input$Country, 
+            ylab="Number of covids deaths per country", 
+            xlab="Day") 
+  })
+}
+```
+This is a hyperlink for Shiny Application
+[Click me to see "Shiny Application"](https://tyj7ss-thanida-p.shinyapps.io/ShinyApplication/)
+
+

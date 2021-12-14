@@ -1,0 +1,14 @@
+name: ShinyApplication
+title: ShinyApplication
+username:
+account: tyj7ss-thanida-p
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5323654
+bundleId: 5370417
+url: https://tyj7ss-thanida-p.shinyapps.io/ShinyApplication/
+when: 1639471712.80533
+lastSyncTime: 1639471712.80533
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: rmd_ShinyApplication.html|rmd_ShinyApplication.Rmd
