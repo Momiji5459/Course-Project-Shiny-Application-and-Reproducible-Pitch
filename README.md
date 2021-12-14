@@ -2,9 +2,11 @@
 
 ---
 title: "Shiny Application and Reproducible Pitch"
+
 author: "Thanida Prasert"
+
 date: "December 14th, 2021"
-output: html_document
+
 ---
 
 ```{r setup, include=FALSE}
@@ -81,6 +83,9 @@ The ui.R and server.R are the code for the shiny application:
 
 
 *Git repository at: *
+
 *RPubs at:*
+
 *Shiny at:*
+
 *Presentation at: *
