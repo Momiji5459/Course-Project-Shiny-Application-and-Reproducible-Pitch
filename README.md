@@ -79,10 +79,10 @@ The repository consists of three final files:
 The ui.R and server.R are the code for the shiny application: 
 
 
-*Git repository at:*
+*Git repository at:https://github.com/Momiji5459/Course-Project-Shiny-Application-and-Reproducible-Pitch*
 
-*RPubs at:*
+*RPubs at:https://rpubs.com/Looloozz/Thanida_Course_Project_info_in_ShinyApplication*
 
-*Shiny at:*
+*Shiny at:https://tyj7ss-thanida-p.shinyapps.io/ShinyApplication/*
 
 *Presentation at:*
