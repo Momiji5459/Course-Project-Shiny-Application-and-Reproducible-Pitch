@@ -76,6 +76,12 @@ The repository consists of three final files:
 
 **5. rmd_ShinyApplication.Rmd**
 
+**6. Presentation.Rmd**
+
+**7. Presentation.html**
+
+**8. rsconnect**
+
 The ui.R and server.R are the code for the shiny application: 
 
 
@@ -85,4 +91,4 @@ The ui.R and server.R are the code for the shiny application:
 
 *Shiny at:https://tyj7ss-thanida-p.shinyapps.io/ShinyApplication/*
 
-*Presentation at:*
+*Presentation at:https://rpubs.com/Looloozz/week4_Course_Project_Presentaton*
