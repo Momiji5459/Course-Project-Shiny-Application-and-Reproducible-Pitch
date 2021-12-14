@@ -23,11 +23,13 @@ The repository consists of all files:
 
 **5. rmd_ShinyApplication.Rmd**
 
-**6. Presentation.Rmd**
+**6. rmd_ShinyApplication.html**
 
-**7. Presentation.html**
+**7. Presentation.Rmd**
 
-**8. rsconnect files**
+**8. Presentation.html**
+
+**9. rsconnect files**
 
 The ui.R and server.R are the code for the shiny application: 
 
